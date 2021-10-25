@@ -10,7 +10,7 @@ namespace DevFreela.API.Controllers
     public class ProjectsController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get(string query)
         {
             return Ok();
         }
