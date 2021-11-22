@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DevFreela.Application.ViewModels
 {
     public class ProjectDetailsViewModel
     {
-        public ProjectDetailsViewModel(int id, string title, string description, decimal totalCost, 
+        public ProjectDetailsViewModel(int id, string title, string description, decimal totalCost,
             DateTime? startedAt, DateTime? finishedAt, string clientFullNmae, string freelancerFullName)
         {
             Id = id;
