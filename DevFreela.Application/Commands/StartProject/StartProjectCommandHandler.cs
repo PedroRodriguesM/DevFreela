@@ -1,10 +1,5 @@
-﻿using Dapper;
-using DevFreela.Core.Repositories;
-using DevFreela.Infrastructure.Persistence;
+﻿using DevFreela.Core.Repositories;
 using MediatR;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
