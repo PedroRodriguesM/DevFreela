@@ -46,7 +46,7 @@ namespace DevFreela.API.Controllers
         }
 
         // api/users/1/login
-        [HttpPut("/login")]
+        [HttpPut("login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginUserCommand command)
         {
