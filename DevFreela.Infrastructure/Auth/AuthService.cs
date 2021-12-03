@@ -52,9 +52,9 @@ namespace DevFreela.Infrastructure.Auth
                 new Claim(ClaimTypes.Role, role)
             };
 
-            var token = new JwtSecurityToken(issuer: issuer, 
-                audience: audience, 
-                expires: DateTime.Now.AddHours(8), 
+            var token = new JwtSecurityToken(issuer: issuer,
+                audience: audience,
+                expires: DateTime.Now.AddHours(8),
                 claims: claims);
 
             var tokenHandler = new JwtSecurityTokenHandler();
